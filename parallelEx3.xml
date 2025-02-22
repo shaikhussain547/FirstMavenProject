@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="2">
+	
+<parameter name="appUrl" value="https://acme-test.uipath.com/login"/>
+<parameter name="username" value="n130547rguktn@gmail.com"/>
+<parameter name="password" value="Hyder#584"/>
+
+  <test name="Test1">
+	<parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.myAutomation.tests.ParametarizationConcept">
+		  <methods>
+			  <include name="openBrowser"/>
+			  <include name="launchApplication"/>
+			  <include name="enterCredentials"/>
+			  <include name="clickLoginBtn"/>
+			  <include name="verifyLogin"/>
+		  </methods>
+	  </class>
+    </classes> 
+  </test>
+  
+  <test name="Test2">
+	<parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.myAutomation.tests.ParametarizationConcept">
+		  <methods>
+			  <include name="openBrowser"/>
+			  <include name="launchApplication"/>
+			  <include name="enterCredentials"/>
+			  <include name="clickLoginBtn"/>
+			  <include name="verifyLogin"/>
+		  </methods>
+	  </class>
+    </classes> 
+  </test>
+  
+</suite>

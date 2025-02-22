@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	
+<parameter name="appUrl" value="https://acme-test.uipath.com/login"/>
+<parameter name="username" value="n130547rguktn@gmail.com"/>
+<parameter name="password" value="Hyder#584"/>
+<parameter name="browser" value="firefox"/>
+
+  <test name="Test">
+    <classes>
+      <class name="com.myAutomation.tests.ParametarizationConcept">
+		  <methods>
+			  <include name="openBrowser"/>
+			  <include name="launchApplication"/>
+			  <include name="enterCredentials"/>
+			  <include name="clickLoginBtn"/>
+			  <include name="verifyLogin"/>
+		  </methods>
+	  </class>
+    </classes>
+  </test>
+</suite>

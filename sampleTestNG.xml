@@ -1,0 +1,11 @@
+<suite name="Suite">
+	<test name="Test">
+		<classes>
+			<class name="com.myAutomation.tests.Sample_Test">
+				<methods>
+					<include name="acmeLogin" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

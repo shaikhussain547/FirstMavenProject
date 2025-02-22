@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	
+  <test name="Test">
+	  
+    <classes>
+      <class name="com.myAutomation.tests.firstTestNGclass">
+		  <methods>
+			  <include name="openBrowser"/>
+			  <include name="launchApplication"/>
+			  <include name="enterUsername"/>
+			  <include name="enterPassword"/>
+			  <include name="clickLoginBtn"/>
+			  <include name="verifyLogin"/>
+		  </methods>
+	  </class>
+    </classes>
+    
+  </test>
+  
+</suite>

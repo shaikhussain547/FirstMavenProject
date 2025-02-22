@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test name="Test" thread-count="2" parallel="classes">
+    <classes>
+	  <class name="com.myAutomation.parallel.SampleTestCase"/>
+      <class name="com.myAutomation.parallel.SampleTestCase2"/>
+    </classes>
+  </test>
+</suite>

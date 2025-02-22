@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="smoke" />
+			<include name="sanity" />
+		</run>
+	</groups>	
+	<test name="Test">
+    	<classes>
+      		<class name="com.myAutomation.tests.Group_Ex2"/>
+      		<class name="com.myAutomation.tests.Group_Ex1"/>
+    	</classes>
+  	</test>
+</suite>
